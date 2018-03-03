@@ -1,0 +1,82 @@
+"*":
+  "activate-power-mode":
+    screenShake: {}
+  "atom-package-deps":
+    ignored: []
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "linter"
+      "linter-ui-default"
+      "linter-js-standard"
+      "ide-typescript"
+      "ide-flowtype"
+      "tree-view"
+      "ide-haskell"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "limited"
+    titleBar: "custom"
+  editor:
+    fontFamily: "mononoki"
+    fontSize: 15
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "222b3d5a-fa12-8c0b-6949-3a4513b1b3a8"
+  "file-icons": {}
+  "ide-haskell":
+    onSavePrettifyFormats:
+      "source*c2hs": true
+      "source*cabal": true
+      "source*hsc2hs": true
+      "source*hsig": true
+      "text*tex*latex*haskell": true
+  linter: {}
+  "linter-eslint":
+    disableFSCache: true
+    useGlobalEslint: true
+  "linter-js-standard": {}
+  "linter-ui-default":
+    panelHeight: 69
+    showProviderName: true
+  "node-debugger":
+    appArgs: "__tests__/helpers/formElementList.js --runInBand"
+    nodeArgs: "--debug-brk"
+    nodePath: "/Users/agtlucas/.nvm/versions/node/v7.5.0/bin/node"
+    scriptMain: "node_modules/.bin/jest"
+  nuclide:
+    "nuclide-file-tree":
+      showOpenFiles: false
+      showUncommittedChanges: false
+    "nuclide-flow": {}
+    "nuclide-home":
+      showHome: false
+  "one-dark-ui": {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+    useEslint: true
+  tabs: {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".reason.source":
+  editor:
+    preferredLineLength: 110
